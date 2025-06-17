@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+}
+
+.flex-container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: #000 solid 2px;
+    align-items: flex-end;
+}
+
+.flex-item:nth-child(1) {
+    background-color: coral; /* antes aquamarine */
+    width: 30px;
+    height: 300px;  
+}
+.flex-item:nth-child(2) {
+    background-color: mediumseagreen; /* antes lightcoral */
+    width: 30px;
+    height: 250px;
+}
+
+.flex-item:nth-child(3) {
+    background-color: steelblue; /* antes lightskyblue */
+    width: 30px;
+    height: 200px;
+}
+    
+.flex-item:nth-child(4) {
+    background-color: goldenrod; /* antes lightgreen */
+    width: 30px;
+    height: 150px;
+}
+.flex-item:nth-child(5) {
+    background-color: plum; /* antes lightgoldenrodyellow */
+    width: 30px;
+    height: 100px;
+}
