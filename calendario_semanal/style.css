@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color: #d1d0fc;
+}   
+.calendar-container {
+    display: flex;
+    height: 1000px;
+    border:1px soild #000000 dashed;
+    background-color: #f0f0f0;
+}
+.time-bar {
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid #8482fd;
+    padding-top: 40px;
+}
+
+/*selector hijo directo*/
+.time-bar > span {
+    border:dashed 1px #8482fd;
+    flex-grow: 1;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 12px;
+    color:#666;
+}
+
+.week{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    flex-grow: 1;
+}
+
+.day-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #8482fd;
+}
+
+.day-header {
+    color: rgb(0, 0, 0);
+    height: 40px;
+    background-color: #7674ff ;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #8482fd;
+}
+.day-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.actividad1{
+    position: absolute;
+    background-color: #b8b7ff;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad2{
+    position: absolute;
+    background-color: #6764fa;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad3{
+    position: absolute;
+    background-color: #3c39ff;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad4{
+    position: absolute;
+    background-color: #2f2cc0;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 295px;
+    top: 400px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad5{
+    position: absolute;
+    background-color: #2f2cc0;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 295px;
+    top: 650px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad6{
+    position: absolute;
+    background-color: #1511ff;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad7{
+    position: absolute;
+    background-color: #3b399c;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad8{
+    position: absolute;
+    background-color: #2f2cc0;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 200px;
+    top: 500px;
+    left: 25px;
+    right: 25px;
+}
+.actividad9{
+    position: absolute;
+    background-color: #fc98e6;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 380px;
+    top: 35px;
+    left: 25px;
+    right: 25px;
+}
+.actividad10{
+    position: absolute;
+    background-color: #fc98e6;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 70px;
+    top: 430px;
+    left: 25px;
+    right: 25px;
+}
+
+.actividad11{
+    position: absolute;
+    background-color: #fc98e6;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 200px;
+    top: 520px;
+    left: 25px;
+    right: 25px;
+}

@@ -14,29 +14,29 @@ body {
 }
 
 .flex-item:nth-child(1) {
-    background-color: coral; /* antes aquamarine */
-    width: 30px;
+    background-color: rgb(255, 68, 0); /* antes aquamarine */
+    width: 50px;
     height: 300px;  
 }
 .flex-item:nth-child(2) {
-    background-color: mediumseagreen; /* antes lightcoral */
-    width: 30px;
+    background-color: rgb(0, 255, 115); /* antes lightcoral */
+    width: 50px;
     height: 250px;
 }
 
 .flex-item:nth-child(3) {
-    background-color: steelblue; /* antes lightskyblue */
-    width: 30px;
+    background-color: rgb(0, 140, 255); /* antes lightskyblue */
+    width: 50px;
     height: 200px;
 }
     
 .flex-item:nth-child(4) {
-    background-color: goldenrod; /* antes lightgreen */
-    width: 30px;
+    background-color: rgb(255, 183, 0); /* antes lightgreen */
+    width: 50px;
     height: 150px;
 }
 .flex-item:nth-child(5) {
-    background-color: plum; /* antes lightgoldenrodyellow */
-    width: 30px;
+    background-color: rgb(255, 0, 255); /* antes lightgoldenrodyellow */
+    width: 50px;
     height: 100px;
 }
